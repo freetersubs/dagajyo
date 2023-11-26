@@ -93,6 +93,13 @@ body {
   html {
     font-size: 62.5%;
   }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
+
   .hero .content img {
     width: 60%;
   }
