@@ -95,20 +95,22 @@ body {
   }
 
   body {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
+    background: gray;
   }
 
   .hero {
-    background: -webkit-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    );
+    align-items: flex-start;
   }
 
-  .hero .content img {
+  .hero {
+    flex-wrap: wrap;
+  }
+  .hero .gambar img {
+    width: 100%;
+  }
+
+  .hero .content .title img {
+    /* padding: 1.4rem 7%; */
     width: 60%;
   }
 }
