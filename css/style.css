@@ -100,17 +100,18 @@ body {
 
   .hero {
     align-items: flex-start;
-  }
-
-  .hero {
     flex-wrap: wrap;
   }
+
+  .hero .content {
+    margin-top: -40rem;
+  }
+
   .hero .gambar img {
     width: 100%;
   }
 
   .hero .content .title img {
-    /* padding: 1.4rem 7%; */
     width: 60%;
   }
 }
