@@ -94,31 +94,31 @@ body {
     font-size: 62.5%;
   }
 
-  body {
+  /* body {
     background: url('../img/bg.jpg');
     background-position: center;
-  }
+  } */
 
   .hero {
-    align-items: start;
-    flex-wrap: wrap;
+    /* align-items: start;
+    flex-wrap: wrap; */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   }
 
-  .hero .content {
+  /* .hero .content {
     margin-top: -35rem;
-  }
+  } */
 
-  .hero .gambar img {
+  /* .hero .gambar img {
     width: 100%;
-  }
+  } */
 
   .hero .content .title img {
     width: 60%;
   }
 
   .hero .content p {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
 
