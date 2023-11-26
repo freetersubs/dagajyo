@@ -22,7 +22,7 @@ body {
   color: #fff;
   background-size: cover;
   background-position: center;
-  background-image: url('../img/dagajyo.jpg');
+  background-image: url('../img/dagajyo1.jpg');
 }
 
 /* Hero Section */
@@ -95,7 +95,8 @@ body {
   }
 
   body {
-    background: gray;
+    background: url('../img/bg.jpg');
+    background-position: center;
   }
 
   .hero {
@@ -103,16 +104,16 @@ body {
     flex-wrap: wrap;
   }
 
-  .hero .content {
-    margin-top: -40rem;
-  }
-
   .hero .gambar img {
     width: 100%;
   }
 
+  .hero .content {
+    margin-top: 0;
+  }
+
   .hero .content .title img {
-    width: 60%;
+    width: 0;
   }
 }
 
