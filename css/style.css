@@ -42,7 +42,7 @@ body {
 }
 
 .hero .content {
-  padding: 1.4rem 7%;
+  padding: 0rem 7%;
   max-width: 60rem;
 }
 
@@ -100,13 +100,14 @@ body {
   }
 
   .hero {
+    min-height: 95vh;
     align-items: flex-start;
     flex-wrap: wrap;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   }
 
   .hero .content {
-    margin-top: 0;
+    margin-top: -40rem;
   }
 
   .hero .gambar img {
