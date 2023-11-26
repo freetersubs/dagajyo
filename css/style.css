@@ -100,14 +100,14 @@ body {
   }
 
   .hero {
-    min-height: 95vh;
-    align-items: flex-start;
+    align-items: start;
     flex-wrap: wrap;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   }
 
   .hero .content {
-    margin-top: -40rem;
+    align-items: start;
+    margin-top: -35rem;
   }
 
   .hero .gambar img {
