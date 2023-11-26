@@ -98,11 +98,11 @@ body {
     background: #7e5f38;
   } */
 
-  /* .hero {
-    align-items: start;
-    flex-wrap: wrap;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  } */
+  .hero {
+    /* align-items: start;
+    flex-wrap: wrap; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  }
 
   /* .hero .content {
     margin-top: -35rem;
